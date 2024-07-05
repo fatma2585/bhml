@@ -1,6 +1,9 @@
 # SMBH
 [![A rectangular badge, half black half purple containing the text made at Code Astro](https://img.shields.io/badge/Made%20at-Code/Astro-blueviolet.svg)](https://semaphorep.github.io/codeastro/)
 
+[![Made with NumPy](https://img.shields.io/badge/Made%20with-NumPy-blue.svg)](https://numpy.org/)
+
+
 ## Introduction
 
 This package is used to constrain huge Astronomical catalogs/surveys to subsets based on redshift ranges to study the evolution of objects, and also to make subsets based on their masses or any parameter we want to study. Finally, visualize these subsets with their mean points.
