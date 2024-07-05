@@ -5,6 +5,10 @@
 
 The mass_luminosity_function is a Python package for calculating the mass-luminosity function of quasars. The mass-luminosity function is an important statistical relationship between the masses of supermassive black holes (SMBHs) at the centers of galaxies and the luminosities of the quasars
 
+## Usage
+
+This package is used to constrain huge Astronomical catalogs/surveys to subsets based on redshift ranges to study the evolution of objects, and also to make subsets based on their masses or any parameter we want to study. They Visualize these subsets with their mean points.
+
 ## Installation
 
 The package is installable on Python 3.x and can be installed using:
