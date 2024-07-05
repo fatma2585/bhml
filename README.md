@@ -3,6 +3,9 @@
 
 [![Made with NumPy](https://img.shields.io/badge/Made%20with-NumPy-blue.svg)](https://numpy.org/)
 
+[![Powered by Matplotlib](https://img.shields.io/badge/Powered%20by-Matplotlib-blue.svg)](https://matplotlib.org/)
+
+[![Uses SciPy](https://img.shields.io/badge/Uses-SciPy-blue.svg)](https://www.scipy.org/)
 
 ## Introduction
 
