@@ -31,13 +31,13 @@ jobs:
 
       - name: Publish package
         env:
-          TWINE_USERNAME: ${{ secrets.FShaban }}
-          TWINE_PASSWORD: ${{ secrets.AgEIcHlwaS5vcmcCJDNlNTIxMzAyLTc5Y2QtNGQ0Mi1hMWFkLTliZGY4OGRhOWFlZgACKlszLCJlYjEwZTViYy05YzNhLTRmOTAtYWUyNi0wYjU1ZDljYzc3YWUiXQAABiB-eHclOXJJ-7b8Ofb-hZ8JMktEo60BuzFzcz6Y1TNVeg }}
+          TWINE_USERNAME: ${{ secrets.__token__ }}
+          TWINE_PASSWORD: ${{ secrets.pypi-AgEIcHlwaS5vcmcCJDYwMDRkYTNmLWI1NTUtNGY2NC1iY2I3LTdjN2UyOWZiZWRlNwACKlszLCJlYjEwZTViYy05YzNhLTRmOTAtYWUyNi0wYjU1ZDljYzc3YWUiXQAABiARShhnOncCXiksSdttE23pzSCYtJQVs69_oHao0hBYHg }}
         run: twine upload dist/*
 
       - name: Publish to TestPyPI (Optional)
         if: github.event_name == 'pull_request'
         env:
-          TWINE_USERNAME: ${{ secrets.TEST_PYPI_FShaban }}
-          TWINE_PASSWORD: ${{ secrets.TEST_AgEIcHlwaS5vcmcCJDNlNTIxMzAyLTc5Y2QtNGQ0Mi1hMWFkLTliZGY4OGRhOWFlZgACKlszLCJlYjEwZTViYy05YzNhLTRmOTAtYWUyNi0wYjU1ZDljYzc3YWUiXQAABiB-eHclOXJJ-7b8Ofb-hZ8JMktEo60BuzFzcz6Y1TNVeg }}
+          TWINE_USERNAME: ${{ secrets.__token__ }}
+          TWINE_PASSWORD: ${{ secrets.pypi-AgEIcHlwaS5vcmcCJDYwMDRkYTNmLWI1NTUtNGY2NC1iY2I3LTdjN2UyOWZiZWRlNwACKlszLCJlYjEwZTViYy05YzNhLTRmOTAtYWUyNi0wYjU1ZDljYzc3YWUiXQAABiARShhnOncCXiksSdttE23pzSCYtJQVs69_oHao0hBYHg }}
         run: twine upload --repository-url https://test.pypi.org/legacy/ dist/*
