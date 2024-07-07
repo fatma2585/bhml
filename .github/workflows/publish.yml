@@ -10,7 +10,7 @@ on:
 
 jobs:
   build-and-publish:
-    runs-on: All Oberating Systems 
+    runs-on: windows-latest 
 
     steps:
       - name: Checkout code
