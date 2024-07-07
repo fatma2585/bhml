@@ -32,12 +32,12 @@ jobs:
       - name: Publish package
         env:
           TWINE_USERNAME: ${{ secrets.FShaban }}
-          TWINE_PASSWORD: ${{ secrets.cossin2020% }}
+          TWINE_PASSWORD: ${{ secrets.AgEIcHlwaS5vcmcCJDNlNTIxMzAyLTc5Y2QtNGQ0Mi1hMWFkLTliZGY4OGRhOWFlZgACKlszLCJlYjEwZTViYy05YzNhLTRmOTAtYWUyNi0wYjU1ZDljYzc3YWUiXQAABiB-eHclOXJJ-7b8Ofb-hZ8JMktEo60BuzFzcz6Y1TNVeg }}
         run: twine upload dist/*
 
       - name: Publish to TestPyPI (Optional)
         if: github.event_name == 'pull_request'
         env:
           TWINE_USERNAME: ${{ secrets.TEST_PYPI_FShaban }}
-          TWINE_PASSWORD: ${{ secrets.TEST_cossin2020% }}
+          TWINE_PASSWORD: ${{ secrets.TEST_AgEIcHlwaS5vcmcCJDNlNTIxMzAyLTc5Y2QtNGQ0Mi1hMWFkLTliZGY4OGRhOWFlZgACKlszLCJlYjEwZTViYy05YzNhLTRmOTAtYWUyNi0wYjU1ZDljYzc3YWUiXQAABiB-eHclOXJJ-7b8Ofb-hZ8JMktEo60BuzFzcz6Y1TNVeg }}
         run: twine upload --repository-url https://test.pypi.org/legacy/ dist/*
