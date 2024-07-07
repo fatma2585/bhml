@@ -31,13 +31,13 @@ jobs:
 
       - name: Publish package
         env:
-          TWINE_USERNAME: ${{ secrets.__token__ }}
-          TWINE_PASSWORD: ${{ secrets.pypi-AgEIcHlwaS5vcmcCJDYwMDRkYTNmLWI1NTUtNGY2NC1iY2I3LTdjN2UyOWZiZWRlNwACKlszLCJlYjEwZTViYy05YzNhLTRmOTAtYWUyNi0wYjU1ZDljYzc3YWUiXQAABiARShhnOncCXiksSdttE23pzSCYtJQVs69_oHao0hBYHg }}
+          TWINE_USERNAME: __token__
+          TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
         run: twine upload dist/*
 
       - name: Publish to TestPyPI (Optional)
         if: github.event_name == 'pull_request'
         env:
-          TWINE_USERNAME: ${{ secrets.__token__ }}
-          TWINE_PASSWORD: ${{ secrets.pypi-AgEIcHlwaS5vcmcCJDYwMDRkYTNmLWI1NTUtNGY2NC1iY2I3LTdjN2UyOWZiZWRlNwACKlszLCJlYjEwZTViYy05YzNhLTRmOTAtYWUyNi0wYjU1ZDljYzc3YWUiXQAABiARShhnOncCXiksSdttE23pzSCYtJQVs69_oHao0hBYHg }}
+          TWINE_USERNAME:__token__
+          TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
         run: twine upload --repository-url https://test.pypi.org/legacy/ dist/*
