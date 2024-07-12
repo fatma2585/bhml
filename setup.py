@@ -1,7 +1,12 @@
 from setuptools import setup, find_packages, Extension
+import pathlib
+
+# The directory containing this file
+HERE = pathlib.Path(bhml/README.md).parent
 
 # The text of the README file
-README = ("README.md").read_text()
+README = (HERE / "README.md").read_text()
+
 
 setup(
     name='bhml',
