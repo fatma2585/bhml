@@ -3,6 +3,7 @@
 [![Made with NumPy](https://img.shields.io/badge/Made%20with-NumPy-blue.svg)](https://numpy.org/)
 [![Uses SciPy](https://img.shields.io/badge/Uses-SciPy-blue.svg)](https://www.scipy.org/)
 [![PyPI version](https://badge.fury.io/py/bhml.svg)](https://pypi.org/project/bhml/)
+[![image](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Introduction
 
