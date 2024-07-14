@@ -1,4 +1,4 @@
-# bhml
+## bhml
 [![A rectangular badge, half black half purple containing the text made at Code Astro](https://img.shields.io/badge/Made%20at-Code/Astro-blueviolet.svg)](https://semaphorep.github.io/codeastro/)
 [![Made with NumPy](https://img.shields.io/badge/Made%20with-NumPy-blue.svg)](https://numpy.org/)
 [![Uses SciPy](https://img.shields.io/badge/Uses-SciPy-blue.svg)](https://www.scipy.org/)
@@ -12,7 +12,7 @@ This package is used to constrain huge Astronomical catalogs/surveys to subsets 
 
 ## Motivation
 
-The mass_luminosity_function is a Python package for calculating the mass-luminosity function of quasars. The mass-luminosity function is an important statistical relationship between the masses of supermassive black holes (SMBHs) at the centers of galaxies and the luminosities of the quasars
+The mass_luminosity_function is a Python package for calculating the mass-luminosity function of quasars. The mass-luminosity function is an important statistical relationship between the masses of supermassive black holes (SMBHs) at the centers of galaxies and the luminosities of the quasars.
 
 
 ## Installation
@@ -51,7 +51,7 @@ Usage:
 MZ = def submean(subsets,Z_ranges,M_ranges,parameter=4)
 
 
-#from bhml import visual
+# from bhml import visual
 This Function is used to visualize the evolution of any two parameters with the cosmic time. (MZ, BZ, MZe, BZe): the parameters we got their means from the previous function. grading: the smoothing factor.
 Usage:
 evolution = visual(Z_ranges, MZ, BZ, MZe, BZe, Zlimit=2.0, grading=300, kernal=3)
