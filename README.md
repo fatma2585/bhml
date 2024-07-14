@@ -1,4 +1,4 @@
-### bhml
+# bhml
 [![A rectangular badge, half black half purple containing the text made at Code Astro](https://img.shields.io/badge/Made%20at-Code/Astro-blueviolet.svg)](https://semaphorep.github.io/codeastro/)
 [![Made with NumPy](https://img.shields.io/badge/Made%20with-NumPy-blue.svg)](https://numpy.org/)
 [![Uses SciPy](https://img.shields.io/badge/Uses-SciPy-blue.svg)](https://www.scipy.org/)
