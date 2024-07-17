@@ -4,6 +4,7 @@
 [![Uses SciPy](https://img.shields.io/badge/Uses-SciPy-blue.svg)](https://www.scipy.org/)
 [![PyPI version](https://badge.fury.io/py/bhml.svg)](https://pypi.org/project/bhml/)
 [![image](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![image alt](https://github.com/fatma2585/bhml/blob/04aa99ab838e584cb3a5b7e6e0d1b097ced4d329/3-astronomersr.jpg)
 
 ## Introduction
 
@@ -12,7 +13,7 @@ This package is used to constrain huge Astronomical catalogs/surveys to subsets 
 
 ## Motivation
 
-The mass_luminosity_function is a Python package for calculating the mass-luminosity function of quasars. The mass-luminosity function is an important statistical relationship between the masses of supermassive black holes (SMBHs) at the centers of galaxies and the luminosities of the quasars.
+The mass_luminosity_function is a Python package for calculating the mass-luminosity function of quasars. The mass-luminosity function is an important statistical relationship between the masses of supermassive black holes (SMBHs) at galaxies' centers and the quasars' luminosities.
 
 
 ## Installation
