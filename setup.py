@@ -2,7 +2,8 @@ from setuptools import setup, find_packages, Extension
 import pathlib
 
 # The text of the README file
-README = ("README.md").read_text()
+with open('README.md', 'r', encoding='utf-8') as f:
+    README = f.read()
 
 
 setup(
