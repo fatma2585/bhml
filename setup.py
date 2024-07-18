@@ -10,7 +10,7 @@ setup(
     version="1.1.0",
     packages=find_packages(),
     install_requires=["numpy>=1.24.4", "scipy>=1.11.1", "astropy>=5.3.3", "matplotlib>=3.6.1"],
-,  # Add your dependencies here
+  # Add your dependencies here
     long_description=README,
     description="This package is used to constrain huge Astronomical catalogs/surveys to subsets based on redshift ranges to study the evolution of celestial objects.",      
     #Constrain the evolution of a complete catalog based on redshift ranges and other parameters ranges (e.g. mass, luminosity .....)",
