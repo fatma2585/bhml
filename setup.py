@@ -7,7 +7,7 @@ README = ("README.md").read_text()
 
 setup(
     name='bhml',
-    version="1.0.0",
+    version="1.1.0",
     packages=find_packages(),
     install_requires=["numpy>=1.24.4", "scipy>=1.11.1", "astropy>=5.3.3", "matplotlib>=3.6.1"],
 ,  # Add your dependencies here
