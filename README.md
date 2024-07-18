@@ -4,7 +4,7 @@
 [![Uses SciPy](https://img.shields.io/badge/Uses-SciPy-blue.svg)](https://www.scipy.org/)
 [![PyPI version](https://badge.fury.io/py/bhml.svg)](https://pypi.org/project/bhml/)
 [![image](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![image alt](https://github.com/fatma2585/bhml/blob/04aa99ab838e584cb3a5b7e6e0d1b097ced4d329/3-astronomersr.jpg)
+![image alt](https://github.com/fatma2585/bhml/blob/c070588a1d1c3b5a28d328fec10297dbd04f10ab/6-astronomersr.jpg)
 
 ## Introduction
 
