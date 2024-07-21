@@ -1,10 +1,10 @@
 # bhml  (black hole mass-luminosity)
 [![A rectangular badge, half black half purple containing the text made at Code Astro](https://img.shields.io/badge/Made%20at-Code/Astro-blueviolet.svg)](https://semaphorep.github.io/codeastro/)
 [![Made with NumPy](https://img.shields.io/badge/Made%20with-NumPy-blue.svg)](https://numpy.org/)
-[![Uses SciPy](https://img.shields.io/badge/Uses-SciPy-blue.svg)](https://www.scipy.org/)
+[![Uses SciPy](https://img.shields.io/badge/Uses-SciPy-red.svg)](https://www.scipy.org/)
 [![PyPI version](https://badge.fury.io/py/bhml.svg)](https://pypi.org/project/bhml/)
 [![image](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![image alt](https://github.com/fatma2585/bhml/blob/c070588a1d1c3b5a28d328fec10297dbd04f10ab/6-astronomersr.jpg)
+[![image alt](https://github.com/fatma2585/bhml/blob/c070588a1d1c3b5a28d328fec10297dbd04f10ab/6-astronomersr.jpg)
 
 ## Introduction
 
