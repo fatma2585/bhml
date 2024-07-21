@@ -3,7 +3,7 @@ bhml (black hole mass-luminosity)
 
 |A rectangular badge, half black half purple containing the text made at
 Code Astro| |Made with NumPy| |Uses SciPy| |PyPI version| |image|
-[|image alt|
+|image alt|
 
 Introduction
 ------------
