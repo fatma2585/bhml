@@ -21,6 +21,10 @@ The mass_luminosity_function is a Python package for calculating the mass-lumino
 The package is installable on Python 3.x and can be installed using:
 
 ```pip install bhml```
+# How to cite
+
+[![DOI](https://zenodo.org/badge/824626583.svg)](https://doi.org/10.5281/zenodo.15914046)
+
 
 ## Use Example and Description of Function
 
